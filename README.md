@@ -11,7 +11,7 @@ para poder asentar los conocimientos sobre el lenguaje puro para más adelante
 poder añadir en las siguientes prácticas **css** pero teniendo una base sólida
 y para no tener que depender de estas hojas de estilo.
 
-Se ha añadido para cada página su respectivo **favicon** y título.
+Se ha añadido para cada página su respectivo **favicon** y **título**.
 
 ### Página principal
 La página principal es la llamada **index.html** en la que se tiene
