@@ -11,6 +11,8 @@ para poder asentar los conocimientos sobre el lenguaje puro para más adelante
 poder añadir en las siguientes prácticas **css** pero teniendo una base sólida
 y para no tener que depender de estas hojas de estilo.
 
+Se ha añadido para cada página su respectivo **favicon** y título.
+
 ### Página principal
 La página principal es la llamada **index.html** en la que se tiene
 el menú principal, que va a estar presente en todas las demás páginas,
@@ -19,7 +21,7 @@ y la información sobre la empresa elegida, **Ferrovial**.
 En la zona **Sobre nosotros** también se tienen botones de interés que
 redigirán a la página oficial de la compañía.
 
-> **Cabe destacar:** El logo que aparece en lo más alto de la página es un 
+> **Cabe destacar:** El logo que aparece al principio de la página es un 
 hipervínculo a la página principal **index.html** por lo que siempre se podrá voler
 a esta, mientras que el menú son hipervínculos a sus respectivas páginas, tanto 
 las fotografías que aparecen encima de los botones como estos.
@@ -31,7 +33,7 @@ El vídeo que aparece en esta página se ha obtenido de la página oficial de la
 
 ### Autopistas
 En el momento que se accede a la página **autopistas.html** se observa los títulos y 
-párrafos que se han añadido y las imágenes sobre datos de las autopistas creadas
+párrafos que se han añadido, las imágenes y el vídeo sobre datos de las autopistas creadas
 por esta compañía y cabe resaltar que en el **footer**, donde en la página principal se tenían
 los datos sobre la empresa aquí se tiene un formulario para poder ser registrado. Este
 formulario aparecerá en todas las demás páginas que se verán a continuación.
