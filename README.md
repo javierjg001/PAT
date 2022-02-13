@@ -1,6 +1,6 @@
 # PAT - Práctica 2 - HTML puro
 Enlaces de interés: 
-- [Inicio del portal Web](https://javierjg001.github.io/PAT-P2/)
+- [Inicio del portal Web](https://javierjg001.github.io/PAT-Practicas/)
 - [Repositorio GitHub](https://github.com/javierjg001/PAT-P2.git)
 
 ## Instrucciones
