@@ -11,35 +11,40 @@
   <body>
 
     <!----------------------------------------------- NAVBAR ----------------------------------------------->
-    <nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+    <nav class="navbar navbar-expand-xxl bg-light navbar-light fixed-top">
       <div class="container">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
           <!--<a href="index.html" width="8%" height="4%">-->
-            <img class="bi me-2" width="18%" height="4%" role="img" aria-label="Bootstrap" src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Ferrovial_Logo.svg"><use xlink:href="#bootstrap"></use></img>
-          </a>
+            <img class="bi me-2 navbar-brand" width="18%" height="4%" role="img" aria-label="Bootstrap" src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Ferrovial_Logo.svg">
 
-          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="index.html" class="nav-link px-2 link-secondary">Inicio &nbsp;|</a></li>
-            <li><a href="sobre-nosotros.html" class="nav-link px-2 link-dark">Sobre Nosotros &nbsp;|</a></li>
-            <li><a href="accionistas-inversores1.html" class="nav-link px-2 link-dark">Accionistas e inversores &nbsp;</a></li>
-            <!--<li><a href="#" class="nav-link px-2 link-dark">Innovación &nbsp;|</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">Prensa</a></li>-->
-            <!--<li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>-->
-          </ul>
-    
-          <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-primary me-2" onclick="alert('¡Debe registrarse primero!')">Iniciar sesión</button>
-            <a href="registro.html"><button type="button" class="btn btn-outline-primary">Registrarse</button></a>
-            
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="toggleMobileMenu">
+            <ul class="nav col-12 col-md-9 mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 link-secondary">Inicio &nbsp;|</a></li>
+              <li><a href="sobre-nosotros.html" class="nav-link px-2 link-dark">Sobre Nosotros &nbsp;|</a></li>
+              <li><a href="accionistas-inversores1.html" class="nav-link px-2 link-dark">Accionistas e inversores &nbsp;</a></li>
+              <!--<li><a href="#" class="nav-link px-2 link-dark">Innovación &nbsp;|</a></li>
+              <li><a href="#" class="nav-link px-2 link-dark">Prensa</a></li>-->
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>-->
+            </ul>
+      
+            <div class="col-md-3 text-end">
+              <button type="button" class="btn btn-outline-primary me-2" onclick="alert('¡Debe registrarse primero!')">Iniciar sesión</button>
+              <a href="registro.html"><button type="button" class="btn btn-outline-primary">Registrarse</button></a>
+              
+            </div>
           </div>
         </header>
       </div>
