@@ -16,7 +16,7 @@ Se tiene el título con la etiqueta **title** en cada una de las páginas, mient
 con la etiqueta **link** se ha creado el favicon para cada una de estas.
 
 > **Cabe destacar:** El logo que aparece al principio de la página es un 
-hipervínculo a la página principal **inicio.html** por lo que siempre se podrá voler
+hipervínculo a la página principal **index.html** por lo que siempre se podrá voler
 a esta, mientras que el menú son hipervínculos a sus respectivas páginas, tanto 
 las fotografías que aparecen encima de los botones como estos.
 
