@@ -1,7 +1,7 @@
 {
-  "name": "practica-2",
+  "name": "practicas",
   "version": "1.0.0",
-  "description": "Enlaces de interés: \r - [Inicio del portal Web](https://javierjg001.github.io/PAT-P2/)\r - [Repositorio GitHub](https://github.com/javierjg001/PAT-P2.git)",
+  "description": "Enlaces de interés: \r - [Inicio del portal Web](https://javierjg001.github.io/PAT-Practicas/)\r - [Repositorio GitHub](https://https://github.com/javierjg001/PAT-Practicas.git)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
