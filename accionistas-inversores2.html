@@ -68,7 +68,7 @@
       <!----------------------------------------------- TABLA DE ACCIONES ----------------------------------------------->
       <h1 class="display-5">Cotización en euros (última semana)</h1>
       <br>
-      <table id="tablax2" class="table table-bordered">
+      <table id="dataTabla" class="table display">
         <thead>
           <tr>
             <th>Fecha</th>
@@ -109,6 +109,17 @@
             <td style="color: red;">-2,63%</td>
           </tr>
         </tbody>
+
+        <tfoot>
+          <tr>
+            <th>Fecha</th>
+            <th>Último</th>
+            <th>Apertura</th>
+            <th>Máximo</th>
+            <th>Mínimo</th>
+            <th>Volumen</th>
+          </tr>
+      </tfoot>
       </table>
 
       <nav>
@@ -163,7 +174,8 @@
     
         
   </body>
-    <!-- JQUERY -->
+
+  <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
     </script>

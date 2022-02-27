@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#tablax').DataTable({
+    $('#dataTabla').DataTable({
         "order" : [[0 , "desc"]],
 
         language: {
