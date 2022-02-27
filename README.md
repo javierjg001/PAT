@@ -1,4 +1,4 @@
-# PAT - Práctica 2 - HTML puro
+# PAT - Práctica 4 - API REST, JSON y su visualización
 Enlaces de interés: 
 - [Inicio del portal Web](https://javierjg001.github.io/PAT-Practicas/)
 - [Repositorio GitHub](https://github.com/javierjg001/PAT-Practicas)

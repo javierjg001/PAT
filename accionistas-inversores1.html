@@ -5,6 +5,8 @@
     <title>Información útil para accionistas e inversores - Ferrovial</title>
     <link rel="shortcut icon" href="https://www.ferrovial.com/wp-content/themes/global/front/dist/static/favicon/favicon.ico">
     <meta name = "Description" content ="La compañía. Operamos en 12 países con una media de 113,182 empleados.">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"> <!-- css para la tabla -->
     <link rel="stylesheet" href="./libs/css/styles.css"/> <!--vinculamos css de bootstrap-->
   </head>
 
@@ -64,9 +66,9 @@
       <br>
       
       <!----------------------------------------------- TABLA DE ACCIONES ----------------------------------------------->
-      <h1 class="display-5">Cotización en euros (última semana)</h1>
+      <h1 class="display-5">Cotización en euros (últimos 100 días)</h1>
       <br>
-      <table class="table table-bordered">
+      <table id="tablax" class="table display">
         <thead>
           <tr>
             <th>Fecha</th>
@@ -75,20 +77,150 @@
             <th>Máximo</th>
             <th>Mínimo</th>
             <th>Volumen</th>
-            <th>% var.</th>
+            <!--<th>% var.</th>-->
+
+            <!-- <th>open</th>
+            <th>high</th>
+            <th>low</th>
+            <th>close</th>
+            <th>volume</th>
+            <th>adj_high</th>
+            <th>adj_low</th>
+            <th>adj_close</th>
+            <th>adj_open</th>
+            <th>adj_volume</th>
+            <th>split_factor</th>
+            <th>dividend</th>
+            <th>symbol</th>
+            <th>exchange</th>
+            <th>date</th> -->
+  
           </tr>
         </thead>
-        <tbody>
-          <tr>
+
+        <tbody id="tablaRellenar">
+          <tr id="tr0">
+            <!-- <td>11.02.2022</td>
+            <td >24,460</td>
+            <td>24,300</td>
+            <td>24,500</td>
+            <td>23,840</td>
+            <td>809,56K</td> -->
+          </tr>
+
+          <tr id="tr1"></tr>
+          <tr id="tr2"></tr>
+          <tr id="tr3"></tr>
+          <tr id="tr4"></tr>
+          <tr id="tr5"></tr>
+          <tr id="tr6"></tr>
+          <tr id="tr7"></tr>
+          <tr id="tr8"></tr>
+          <tr id="tr9"></tr>
+          <tr id="tr10"></tr>
+          <tr id="tr11"></tr>
+          <tr id="tr12"></tr>
+          <tr id="tr13"></tr>
+          <tr id="tr14"></tr>
+          <tr id="tr15"></tr>
+          <tr id="tr16"></tr>
+          <tr id="tr17"></tr>
+          <tr id="tr18"></tr>
+          <tr id="tr19"></tr>
+          <tr id="tr20"></tr>
+          <tr id="tr21"></tr>
+          <tr id="tr22"></tr>
+          <tr id="tr23"></tr>
+          <tr id="tr24"></tr>
+          <tr id="tr25"></tr>
+          <tr id="tr26"></tr>
+          <tr id="tr27"></tr>
+          <tr id="tr28"></tr>
+          <tr id="tr29"></tr>
+          <tr id="tr30"></tr>
+          <tr id="tr31"></tr>
+          <tr id="tr32"></tr>
+          <tr id="tr33"></tr>
+          <tr id="tr34"></tr>
+          <tr id="tr35"></tr>
+          <tr id="tr36"></tr>
+          <tr id="tr37"></tr>
+          <tr id="tr38"></tr>
+          <tr id="tr39"></tr>
+          <tr id="tr40"></tr>
+          <tr id="tr41"></tr>
+          <tr id="tr42"></tr>
+          <tr id="tr43"></tr>
+          <tr id="tr44"></tr>
+          <tr id="tr45"></tr>
+          <tr id="tr46"></tr>
+          <tr id="tr47"></tr>
+          <tr id="tr48"></tr>
+          <tr id="tr49"></tr>
+          <tr id="tr50"></tr>
+          <tr id="tr51"></tr>
+          <tr id="tr52"></tr>
+          <tr id="tr53"></tr>
+          <tr id="tr54"></tr>
+          <tr id="tr55"></tr>
+          <tr id="tr56"></tr>
+          <tr id="tr57"></tr>
+          <tr id="tr58"></tr>
+          <tr id="tr59"></tr>
+          <tr id="tr60"></tr>
+          <tr id="tr61"></tr>
+          <tr id="tr62"></tr>
+          <tr id="tr63"></tr>
+          <tr id="tr64"></tr>
+          <tr id="tr65"></tr>
+          <tr id="tr66"></tr>
+          <tr id="tr67"></tr>
+          <tr id="tr68"></tr>
+          <tr id="tr69"></tr>
+          <tr id="tr70"></tr>
+          <tr id="tr71"></tr>
+          <tr id="tr72"></tr>
+          <tr id="tr73"></tr>
+          <tr id="tr74"></tr>
+          <tr id="tr75"></tr>
+          <tr id="tr76"></tr>
+          <tr id="tr77"></tr>
+          <tr id="tr78"></tr>
+          <tr id="tr79"></tr>
+          <tr id="tr80"></tr>
+          <tr id="tr81"></tr>
+          <tr id="tr82"></tr>
+          <tr id="tr83"></tr>
+          <tr id="tr84"></tr>
+          <tr id="tr85"></tr>
+          <tr id="tr86"></tr>
+          <tr id="tr87"></tr>
+          <tr id="tr88"></tr>
+          <tr id="tr89"></tr>
+          <tr id="tr90"></tr>
+          <tr id="tr91"></tr>
+          <tr id="tr92"></tr>
+          <tr id="tr93"></tr>
+          <tr id="tr94"></tr>
+          <tr id="tr95"></tr>
+          <tr id="tr96"></tr>
+          <tr id="tr97"></tr>
+          <tr id="tr98"></tr>
+          <tr id="tr99"></tr>
+        </tbody>
+
+        <!-- <tbody>
+          <tr style="color: red">
             <td>11.02.2022</td>
-            <td style="color: red;">24,460</td>
+            <td >24,460</td>
             <td>24,300</td>
             <td>24,500</td>
             <td>23,840</td>
             <td>809,56K</td>
             <td style="color: red;">-0,24%</td>
           </tr>
-          <tr>
+
+          <tr style="color: red;">
             <td>10.02.2022</td>
             <td style="color: red;">24,520</td>
             <td>24,860</td>
@@ -97,19 +229,21 @@
             <td>796,02K</td>
             <td style="color: red;">-0,89%</td>
           </tr>
-          <tr>
+
+          <tr style="color:rgb(39, 222, 39);">
             <td>09.02.2022</td>
-            <td style="color:greenyellow;">24,740</td>
+            <td >24,740</td>
             <td>24,270</td>
             <td>24,890</td>
             <td>24,270</td>
             <td>825,88K</td>
             <td style="color: greenyellow;">2,57%</td>
           </tr>
-        </tbody>
-      </table>
 
-      <nav aria-label="...">
+        </tbody>-->
+      </table> 
+
+      <!-- <nav aria-label="...">
         <ul class="pagination">
           <li class="page-item">
             <a class="page-link" href="accionistas-inversores2.html">Previous</a>
@@ -122,7 +256,7 @@
             <a class="page-link" href="accionistas-inversores2.html">Next</a>
           </li>
         </ul>
-      </nav>
+      </nav> -->
 
 
       <a href="https://www.ferrovial.com/es/accionistas-e-inversores/informacion-financiera/informacion-financiera-trimestral/" class="nav-link px-2 link-dark"><div class="card bg-dark text-white">
@@ -161,5 +295,15 @@
     
         
   </body>
+
+  <script src="./libs/js/api.js"></script>
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+  </script>
+  
+  <!-- <script src="/libs/js/jquery.js"></script> -->
+  <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script> <!--vinculamos js dataTables-->
+  <script src="./libs/js/datatables.js"></script>
   <script src="./libs/js/bootstrap.js"></script> <!--vinculamos js-->
 </html>
