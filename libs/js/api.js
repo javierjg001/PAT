@@ -25,6 +25,14 @@ let llamarApi = async () => {
 
     } else {
         console.log("fallo");
+        const HTMLaCambiar = $("#tr0");
+
+        HTMLaCambiar.html(`<td>Se</td>
+                            <td>ha llegado</td>
+                            <td>al límite</td>
+                            <td>de intentos</td>
+                            <td>de la</td>
+                            <td>API</td>`);
     };
 };
 
