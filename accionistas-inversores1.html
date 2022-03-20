@@ -5,9 +5,9 @@
     <title>Información útil para accionistas e inversores - Ferrovial</title>
     <link rel="shortcut icon" href="https://www.ferrovial.com/wp-content/themes/global/front/dist/static/favicon/favicon.ico">
     <meta name = "Description" content ="La compañía. Operamos en 12 países con una media de 113,182 empleados.">
+    
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css"> <!-- css para la tabla -->
 
-    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"> css para la tabla -->
-    <link rel="dataTables" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="./libs/css/styles.css"/> <!--vinculamos css de bootstrap-->
   </head>
 
@@ -77,11 +77,38 @@
             <th>Apertura</th>
             <th>Máximo</th>
             <th>Mínimo</th>
-            <th>Volumen</th>
+            <th>Volumen [miles]</th>
           </tr>
         </thead>
 
         <tbody id="tablaRellenar">
+
+
+          <!-- <tr>
+            <td>08.02.2022</td>
+            <td style="color: greenyellow;">24,120</td>
+            <td>23,500</td>
+            <td>24,120</td>
+            <td>23,470</td>
+            <td>1,50M</td>
+          </tr>
+          <tr>
+            <td>07.02.2022</td>
+            <td style="color: red;">23,600</td>
+            <td>24,230</td>
+            <td>24,390</td>
+            <td>23,600</td>
+            <td>1,90M</td>
+          </tr>
+          <tr>
+            <td>04.02.2022</td>
+            <td style="color:red;">24,110</td>
+            <td>25,060</td>
+            <td>25,140</td>
+            <td>24,010</td>
+            <td>975,55K</td>
+          </tr> -->
+
           <tr id="tr0"></tr>
           <tr id="tr1"></tr>
           <tr id="tr2"></tr>
@@ -238,16 +265,16 @@
         
   </body>
 
-  <script src="./libs/js/api.js"></script>
-
   <!-- JQUERY -->
   <script src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
   </script>
+
+  <script src="./libs/js/api.js"></script>
+
   
   <!-- <script src="/libs/js/jquery.js"></script> -->
-  <!-- <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script> vinculamos js dataTables -->
-  <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script> <!--vinculamos js dataTables-->
   <script src="./libs/js/datatables.js"></script>
   <script src="./libs/js/bootstrap.js"></script> <!--vinculamos js-->
 </html>
